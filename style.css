@@ -243,3 +243,69 @@ li a:hover {
     text-align: left;
     margin-bottom: 30px;
 }
+
+/* Footer */
+
+#footer {
+    background-color: #d0ccc733;
+}
+
+.footer__container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 80px;
+}
+
+.footer__logo {
+    width: 200px;
+    height: auto;
+}
+
+.footer__text {
+    color: #2f3e46;
+    font-size: 16px;
+    line-height: 50px;
+    display: block;
+}
+
+.footer__social-icons img {
+    margin-top: 40px;
+    border-radius: 30%;
+}
+
+.footer__brand {
+    width: 30%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.footer__logo {
+    margin-bottom: 25px;
+}
+
+.footer__content {
+    display: flex;
+    margin-bottom: 80px;
+    justify-content: space-between;
+}
+
+.footer__heading {
+    color: #2f2f2f;
+    font-size: 25px;
+    line-height: 50px;
+    margin-bottom: 25px;
+}
+
+.footer__contact {
+    width: 30%;
+}
+
+.footer__contact p {
+    line-height: 30px;
+}
+
+.footer__brand p {
+    line-height: 30px;
+}
