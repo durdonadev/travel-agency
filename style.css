@@ -57,3 +57,43 @@ a {
 #navigation__link {
     color: #f48c06;
 }
+
+/* Hero Section */
+
+#hero-section {
+    background-image: url(./assets/hero.jpg);
+    background-size: cover;
+    background-position: top;
+    background-color: #fbfafa;
+}
+
+.hero-section__container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 190px;
+}
+
+.hero-section__container h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 140px;
+    line-height: 90px;
+    font-weight: 600;
+}
+
+.hero-section__container h2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 400;
+}
+
+.hero-section__container h3 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 35px;
+    line-height: 75px;
+    font-weight: 300;
+    font-style: italic;
+}
