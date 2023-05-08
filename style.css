@@ -333,3 +333,47 @@ li a:hover {
     line-height: 140px;
     font-weight: 600;
 }
+
+/* Data Table Section */
+
+.data-section__container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 80px;
+}
+
+.data-section__container h2 {
+    text-align: center;
+    font-size: 60px;
+    line-height: 72px;
+    color: #2f3e46;
+    margin-bottom: 60px;
+}
+
+.destinations-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.destinations-table td,
+th {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.destinations-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.destinations-table tr:hover {
+    background-color: #ddd;
+}
+
+.destinations-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #0077b6;
+    color: #ffffff;
+}
