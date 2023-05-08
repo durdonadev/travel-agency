@@ -309,3 +309,27 @@ li a:hover {
 .footer__brand p {
     line-height: 30px;
 }
+
+/* Destinations Page */
+/* Introduction Section */
+
+#introduction-section {
+    background-image: url(./assets/destinations.jpg);
+    background-size: cover;
+    background-position: top;
+    background-color: #fbfafa;
+}
+
+.introduction-section__container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 190px;
+}
+
+.introduction-section__container h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 120px;
+    line-height: 140px;
+    font-weight: 600;
+}
