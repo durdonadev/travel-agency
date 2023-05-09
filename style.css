@@ -430,3 +430,27 @@ th {
     margin-left: 30px;
     margin-bottom: 10px;
 }
+
+/* Contact Us Page */
+/* Contact Enter Section */
+
+#contactEnter-section {
+    background-image: url(./assets/contact.jpg);
+    background-size: cover;
+    background-position: top;
+    background-color: #fbfafa;
+}
+
+.contactEnter-section__container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 190px;
+}
+
+.contactEnter-section__container h1 {
+    color: #006400;
+    text-align: end;
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: 600;
+}
