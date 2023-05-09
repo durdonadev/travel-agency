@@ -454,3 +454,48 @@ th {
     line-height: 80px;
     font-weight: 600;
 }
+
+/* Locations Table Section */
+
+.locations-section__container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 80px;
+}
+
+.locations-section__container h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    color: #2f3e46;
+    margin-bottom: 30px;
+}
+
+.locations-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.locations-table td,
+th {
+    text-align: left;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.locations-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.locations-table tr:hover {
+    background-color: #ddd;
+}
+
+.locations-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #0077b6;
+    color: #ffffff;
+}
