@@ -499,3 +499,170 @@ th {
     background-color: #0077b6;
     color: #ffffff;
 }
+
+/* Contact Form Section */
+
+.contactForm-section__container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.contactForm-section__right h4 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+    color: #2f3e46;
+    margin-bottom: 65px;
+    font-weight: 600;
+}
+
+.contactForm-section__left {
+    width: 50%;
+}
+
+.contactForm-section__right {
+    width: 50%;
+}
+
+.form-content {
+    background-color: #d0ccc733;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.form-content h4 {
+    font-size: 30px;
+    line-height: 35px;
+    color: #2f3e46;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.form-content p {
+    color: #2f3e46;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#firstName,
+#lastName,
+#emailInput,
+#phoneNumberInput,
+#preferredDestinationSelect {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.form-content input[type="checkbox"] {
+    cursor: pointer;
+}
+
+.form-checkbox {
+    display: block;
+    position: relative;
+    padding-left: 0px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-checkbox h5 {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+.submit-input {
+    width: 100%;
+    font-size: 18px;
+    background-color: #0077b6;
+    color: #ffffff;
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-input:hover {
+    background-color: #3693c5;
+}
+
+.form-radio h5 {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+.form-radio input[type="radio"] {
+    margin-left: 30px;
+}
+
+.form-textarea label {
+    font-size: 17px;
+    line-height: 40px;
+}
+
+.form-textarea textarea {
+    padding: 10px;
+    width: 100%;
+    line-height: 1.5;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+.contact-section__contacts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.card {
+    width: calc((100% - 35px) / 2);
+
+    padding: 8px 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+.card img {
+    margin-bottom: 16px;
+    width: auto;
+    height: 50px;
+}
+
+.card__title {
+    color: #323b4b;
+    font-size: 25px;
+    line-height: 50px;
+    font-weight: 600;
+
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.card__text {
+    font-size: 18px;
+    line-height: 30px;
+    color: #8a94a6;
+    text-align: left;
+    margin-bottom: 20px;
+}

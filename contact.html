@@ -86,5 +86,239 @@
                 </table>
             </div>
         </section>
+        <section id="contactForm-section">
+            <div class="contactForm-section__container">
+                <div class="contactForm-section__left">
+                    <form class="form-content">
+                        <h4>Let's Get Started on Your Next Vacation!</h4>
+                        <p>
+                            If you're just beginning to plan your next trip,
+                            this is the place to start with some basics about
+                            your dream vacation before we schedule a time to
+                            chat.
+                        </p>
+                        <div>
+                            <label for="firstName">First Name</label><br />
+                            <input
+                                type="text"
+                                id="firstName"
+                                name="firstName"
+                                placeholder="First Name"
+                                required
+                                autofocus
+                            />
+                        </div>
+
+                        <div>
+                            <label for="lastName">Last Name</label><br />
+                            <input
+                                type="text"
+                                id="lastName"
+                                name="lastName"
+                                placeholder="Last Name"
+                                required
+                            />
+                        </div>
+
+                        <div>
+                            <label for="emailInput">Your Email</label><br />
+                            <input
+                                type="email"
+                                id="emailInput"
+                                name="email"
+                                placeholder="you@example.com"
+                                required
+                            />
+                        </div>
+
+                        <div>
+                            <label for="phoneNumberInput">Phone Number:</label>
+                            <input
+                                type="tel"
+                                id="phoneNumberInput"
+                                name="phoneNumber"
+                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                                placeholder="(123)-456-7890"
+                                required
+                            />
+                        </div>
+
+                        <div>
+                            <label for="preferredDestinationSelect"
+                                >Which is Your Preferred Destination?</label
+                            >
+                            <select
+                                id="preferredDestinationSelect"
+                                name="preferredDestination"
+                            >
+                                <option value="USA">USA</option>
+                                <option value="Canada">Canada</option>
+                                <option value="Mexico">Mexico</option>
+                                <option value="Caribbean">Caribbean</option>
+                                <option value="Europe">Europe</option>
+                                <option value="Central America">
+                                    Central America
+                                </option>
+                                <option value="South America">
+                                    South America
+                                </option>
+                                <option value="South Pacific">
+                                    South Pacific
+                                </option>
+                                <option value="Australia">Australia</option>
+                                <option value="Indian Ocean">
+                                    Indian Ocean
+                                </option>
+                                <option value="Asia">Asia</option>
+                                <option value="Africa">Africa</option>
+                                <option value="Middle East">Middle East</option>
+                            </select>
+                        </div>
+
+                        <div class="form-checkbox">
+                            <h5>Select Tour Preferred Travel Services:</h5>
+                            <div>
+                                <input
+                                    type="checkbox"
+                                    id="preferredServiceFlightsCheckbox"
+                                    name="isFlightsPreferred"
+                                    required
+                                />
+                                <label for="preferredServiceflightsCheckbox"
+                                    >Flights</label
+                                >
+                            </div>
+                            <div>
+                                <input
+                                    type="checkbox"
+                                    id="preferredServiceHotelsCheckbox"
+                                    name="isHotelssPreferred"
+                                />
+                                <label for="preferredServiceHotelsCheckbox"
+                                    >Hotels</label
+                                >
+                            </div>
+                            <div>
+                                <input
+                                    type="checkbox"
+                                    id="preferredServiceToursCheckbox"
+                                    name="isToursPreferred"
+                                />
+                                <label for="preferredServiceToutssCheckbox"
+                                    >Tours</label
+                                >
+                            </div>
+                            <div>
+                                <input
+                                    type="checkbox"
+                                    id="preferredServiceCarRentalsCheckbox"
+                                    name="isCarRentalssPreferred"
+                                />
+                                <label for="preferredServiceCarRentalsCheckbox"
+                                    >Car Rentals</label
+                                >
+                            </div>
+                        </div>
+
+                        <div class="form-radio">
+                            <h5>Preferred communication style? :</h5>
+                            <input
+                                type="radio"
+                                id="emailRadio"
+                                name="preferredCommunicationStyle"
+                                value="Email"
+                            />
+                            <label for="emailRadio">Email</label>
+
+                            <input
+                                type="radio"
+                                id="phoneRadio"
+                                name="preferredCommunicationStyle"
+                                value="Phone"
+                            />
+                            <label for="phoneRadio">Phone</label>
+
+                            <input
+                                type="radio"
+                                id="smsRadio"
+                                name="preferredCommunicationStyle"
+                                value="SMA"
+                            />
+                            <label for="smsRadio">SMS</label>
+                        </div>
+
+                        <div class="form-textarea">
+                            <label for="commentsTextarea"
+                                >Additional Comments and Questions:</label
+                            ><br />
+                            <textarea
+                                name="comments"
+                                id="commentsTextarea"
+                                rows="3"
+                                placeholder="Your Massage..."
+                            ></textarea>
+                        </div>
+
+                        <input
+                            class="submit-input"
+                            type="submit"
+                            value="Submit"
+                        />
+                    </form>
+                </div>
+                <div class="contactForm-section__right">
+                    <h4>Contact Us</h4>
+                    <div class="contact-section__contacts">
+                        <div class="card">
+                            <img
+                                src="./assets/location-icon.png"
+                                alt="location icon"
+                            />
+                            <h3 class="card__title">Office</h3>
+                            <p class="card__text">
+                                703 Brighton Beach Ave, Brooklyn, NY 11235
+                            </p>
+                        </div>
+                        <div class="card">
+                            <img
+                                src="./assets/phone-icon.png"
+                                alt="phone icon"
+                            />
+                            <h3 class="card__title">Call us</h3>
+                            <p class="card__text">(718) 887-7887</p>
+                        </div>
+                        <div class="card">
+                            <img
+                                src="./assets/email-icon.png"
+                                alt="email icon"
+                            />
+                            <h3 class="card__title">Drop a line</h3>
+                            <p class="card__text">
+                                annette@dreamtravelescapes.com <br />
+                                kethy@dreamtravelescapes.com
+                            </p>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/chat-icon.png" alt="chat icon" />
+                            <h3 class="card__title">Live chat</h3>
+                            <p class="card__text">
+                                Let's chat. We are here to help.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contacts-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3030.349646050708!2d-73.96045649999999!3d40.578037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24441ee149afb%3A0x2fd601e40e11e9e9!2s703%20Brighton%20Beach%20Ave%2C%20Brooklyn%2C%20NY%2011235!5e0!3m2!1sru!2sus!4v1683657957077!5m2!1sru!2sus"
+                            width="620"
+                            height="300"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
