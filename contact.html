@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contuct Us</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600&family=Inter:wght@400;600&family=Poppins:wght@400;600&family=Source+Serif+Pro:ital,wght@0,400;0,600;1,400&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header class="header">
+            <nav class="navigation">
+                <img src="./assets/logo.png" alt="Dream Travel" class="logo" />
+                <ul class="navigation__links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./destinations.html">Destinations</a></li>
+                    <li>
+                        <a href="./contact.html" id="navigation__link"
+                            >Contact Us</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section id="contactEnter-section">
+            <div class="contactEnter-section__container">
+                <div class="contactEnter-section__background">
+                    <h1>Contact Us</h1>
+                </div>
+            </div>
+        </section>
+        <section id="locations-section">
+            <div class="locations-section__container">
+                <h2>Dream Travel Escapes Office Locations</h2>
+                <table class="locations-table">
+                    <thead>
+                        <tr>
+                            <th>Office Name</th>
+                            <th>Address</th>
+                            <th>Contact Number</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Main Office</td>
+                            <td>703 Brighton Beach Ave, Brooklyn, NY 11235</td>
+                            <td>(718) 887-7887</td>
+                            <td>annette@dreamtravelescapes.com</td>
+                        </tr>
+                        <tr>
+                            <td>Europe</td>
+                            <td>27 Gloucester str, London, England</td>
+                            <td>(020) 778-8778</td>
+                            <td>kethy@dreamtravelescapes.com</td>
+                        </tr>
+                        <tr>
+                            <td>Asia</td>
+                            <td>
+                                10-15 Marunouchi, Chiyoda City, Tokyo 100-0005,
+                                Japan
+                            </td>
+                            <td>(212) 202-1668</td>
+                            <td>sam@dreamtravelescapes.com</td>
+                        </tr>
+                        <tr>
+                            <td>Australia</td>
+                            <td>
+                                790 George St, Haymarket NSW 2000, Australia
+                            </td>
+                            <td>(612) 5633 1149</td>
+                            <td>will@dreamtravelescapes.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section id="contactForm-section">
+            <div class="contactForm-section__container">
+                <div class="contactForm-section__left">
+                    <form class="form-content">
+                        <h4>Let's Get Started on Your Next Vacation!</h4>
+                        <p>
+                            If you're just beginning to plan your next trip,
+                            this is the place to start with some basics about
+                            your dream vacation before we schedule a time to
+                            chat.
+                        </p>
+                        <div>
+                            <label for="firstName">First Name</label><br />
+                            <input
+                                type="text"
+                                id="firstName"
+                                name="firstName"
+                                placeholder="First Name"
+                                required
+                                autofocus
+                            />
+                        </div>
+
+                        <div>
+                            <label for="lastName">Last Name</label><br />
+                            <input
+                                type="text"
+                                id="lastName"
+                                name="lastName"
+                                placeholder="Last Name"
+                                required
+                            />
+                        </div>
+
+                        <div>
+                            <label for="emailInput">Your Email</label><br />
+                            <input
+                                type="email"
+                                id="emailInput"
+                                name="email"
+                                placeholder="you@example.com"
+                                required
+                            />
+                        </div>
+
+                        <div>
+                            <label for="phoneNumberInput">Phone Number:</label>
+                            <input
+                                type="tel"
+                                id="phoneNumberInput"
+                                name="phoneNumber"
+                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                                placeholder="(123)-456-7890"
+                                required
+                            />
+                        </div>
+
+                        <div>
+                            <label for="preferredDestinationSelect"
+                                >Which is Your Preferred Destination?</label
+                            >
+                            <select
+                                id="preferredDestinationSelect"
+                                name="preferredDestination"
+                            >
+                                <option value="USA">USA</option>
+                                <option value="Canada">Canada</option>
+                                <option value="Mexico">Mexico</option>
+                                <option value="Caribbean">Caribbean</option>
+                                <option value="Europe">Europe</option>
+                                <option value="Central America">
+                                    Central America
+                                </option>
+                                <option value="South America">
+                                    South America
+                                </option>
+                                <option value="South Pacific">
+                                    South Pacific
+                                </option>
+                                <option value="Australia">Australia</option>
+                                <option value="Indian Ocean">
+                                    Indian Ocean
+                                </option>
+                                <option value="Asia">Asia</option>
+                                <option value="Africa">Africa</option>
+                                <option value="Middle East">Middle East</option>
+                            </select>
+                        </div>
+
+                        <div class="form-checkbox">
+                            <h5>Select Tour Preferred Travel Services:</h5>
+                            <div>
+                                <input
+                                    type="checkbox"
+                                    id="preferredServiceFlightsCheckbox"
+                                    name="isFlightsPreferred"
+                                    required
+                                />
+                                <label for="preferredServiceflightsCheckbox"
+                                    >Flights</label
+                                >
+                            </div>
+                            <div>
+                                <input
+                                    type="checkbox"
+                                    id="preferredServiceHotelsCheckbox"
+                                    name="isHotelssPreferred"
+                                />
+                                <label for="preferredServiceHotelsCheckbox"
+                                    >Hotels</label
+                                >
+                            </div>
+                            <div>
+                                <input
+                                    type="checkbox"
+                                    id="preferredServiceToursCheckbox"
+                                    name="isToursPreferred"
+                                />
+                                <label for="preferredServiceToutssCheckbox"
+                                    >Tours</label
+                                >
+                            </div>
+                            <div>
+                                <input
+                                    type="checkbox"
+                                    id="preferredServiceCarRentalsCheckbox"
+                                    name="isCarRentalssPreferred"
+                                />
+                                <label for="preferredServiceCarRentalsCheckbox"
+                                    >Car Rentals</label
+                                >
+                            </div>
+                        </div>
+
+                        <div class="form-radio">
+                            <h5>Preferred communication style? :</h5>
+                            <input
+                                type="radio"
+                                id="emailRadio"
+                                name="preferredCommunicationStyle"
+                                value="Email"
+                            />
+                            <label for="emailRadio">Email</label>
+
+                            <input
+                                type="radio"
+                                id="phoneRadio"
+                                name="preferredCommunicationStyle"
+                                value="Phone"
+                            />
+                            <label for="phoneRadio">Phone</label>
+
+                            <input
+                                type="radio"
+                                id="smsRadio"
+                                name="preferredCommunicationStyle"
+                                value="SMA"
+                            />
+                            <label for="smsRadio">SMS</label>
+                        </div>
+
+                        <div class="form-textarea">
+                            <label for="commentsTextarea"
+                                >Additional Comments and Questions:</label
+                            ><br />
+                            <textarea
+                                name="comments"
+                                id="commentsTextarea"
+                                rows="3"
+                                placeholder="Your Massage..."
+                            ></textarea>
+                        </div>
+
+                        <input
+                            class="submit-input"
+                            type="submit"
+                            value="Submit"
+                        />
+                    </form>
+                </div>
+                <div class="contactForm-section__right">
+                    <h4>Contact Us</h4>
+                    <div class="contact-section__contacts">
+                        <div class="card">
+                            <img
+                                src="./assets/location-icon.png"
+                                alt="location icon"
+                            />
+                            <h3 class="card__title">Office</h3>
+                            <p class="card__text">
+                                703 Brighton Beach Ave, Brooklyn, NY 11235
+                            </p>
+                        </div>
+                        <div class="card">
+                            <img
+                                src="./assets/phone-icon.png"
+                                alt="phone icon"
+                            />
+                            <h3 class="card__title">Call us</h3>
+                            <p class="card__text">(718) 887-7887</p>
+                        </div>
+                        <div class="card">
+                            <img
+                                src="./assets/email-icon.png"
+                                alt="email icon"
+                            />
+                            <h3 class="card__title">Drop a line</h3>
+                            <p class="card__text">
+                                annette@dreamtravelescapes.com <br />
+                                kethy@dreamtravelescapes.com
+                            </p>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/chat-icon.png" alt="chat icon" />
+                            <h3 class="card__title">Live chat</h3>
+                            <p class="card__text">
+                                Let's chat. We are here to help.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contacts-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3030.349646050708!2d-73.96045649999999!3d40.578037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24441ee149afb%3A0x2fd601e40e11e9e9!2s703%20Brighton%20Beach%20Ave%2C%20Brooklyn%2C%20NY%2011235!5e0!3m2!1sru!2sus!4v1683657957077!5m2!1sru!2sus"
+                            width="620"
+                            height="300"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <div class="footer__container">
+                <div class="footer__content">
+                    <div class="footer__brand">
+                        <img
+                            src="./assets/logo.png"
+                            alt="Logo"
+                            class="footer__logo"
+                        />
+                        <p class="footer__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Officiis pariatur quos eveniet totam
+                            similique.
+                        </p>
+                        <div class="footer__social-icons">
+                            <img src="./assets/twitter.svg" alt="" />
+                            <img src="./assets/facebook.svg" alt="" />
+                            <img src="./assets/dribbble.svg" alt="" />
+                            <img src="./assets/youtube.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="footer__pages">
+                        <h4 class="footer__heading">Page</h4>
+                        <a href="" class="footer__text">Home</a>
+                        <a href="" class="footer__text">About Us</a>
+                        <a href="" class="footer__text">Destinations</a>
+                        <a href="" class="footer__text">Contact Us</a>
+                    </div>
+                    <div class="footer__about">
+                        <h4 class="footer__heading">Information</h4>
+                        <a href="" class="footer__text">Events</a>
+                        <a href="" class="footer__text">Tickets</a>
+                    </div>
+                    <div class="footer__contact">
+                        <h4 class="footer__heading">Get in touch</h4>
+                        <p class="footer__text">
+                            Metro Office Park<br />
+                            7 calle 1, Suite 204 ,<br />
+                            Guaynabo, PR 00968,
+                        </p>
+                        <a
+                            href="mailto: delizioso@gmail.com<"
+                            class="footer__text"
+                            >dreamtravel@gmail.com</a
+                        >
+                        <a href="tel:+123 4567 8901" class="footer__text"
+                            >+123 4567 8901</a
+                        >
+                    </div>
+                </div>
+                <p class="footer__text text-center">
+                    Copyright &COPY; 2023 Dream Travel Escapes
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
