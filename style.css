@@ -47,7 +47,7 @@ a {
 
 .navigation__links li a {
     color: #2f3e46;
-    font-size: 16px;
+    font-size: 22px;
 }
 
 .navigation__links li a:hover {
@@ -500,16 +500,70 @@ th {
     color: #ffffff;
 }
 
+/* FAQs Section */
+
+#faq-section {
+    background-color: #d0ccc733;
+}
+
+.faq-section__container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+}
+
+.faq-section__container h4 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+    color: #2f3e46;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.faq-section__questions {
+    align-items: center;
+    padding: 0 80px;
+    display: flex;
+    position: relative;
+}
+
+.faq-section__questions img {
+    width: 24px;
+    height: auto;
+    position: absolute;
+    top: 12px;
+    left: 80px;
+}
+
+.faq-section__questions dt {
+    color: #2f3e46;
+    font-size: 24px;
+    line-height: 48px;
+    margin-left: 36px;
+    font-weight: 600;
+}
+
+.faq-section__questions dd {
+    color: #2f3e46;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 36px;
+    margin-bottom: 20px;
+}
+
 /* Contact Form Section */
 
 .contactForm-section__container {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 40px;
+    padding: 80px;
     display: flex;
 
     gap: 40px;
-    margin-bottom: 40px;
 }
 
 .contactForm-section__right h4 {
@@ -547,7 +601,7 @@ th {
 
 .form-content p {
     color: #2f3e46;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 20px;
     margin-bottom: 20px;
     text-align: center;
