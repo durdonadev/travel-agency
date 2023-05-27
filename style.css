@@ -27,16 +27,16 @@
 }
 
 .navigation__links li a {
-    color: #2f3e46;
+    color: var(--text-color);
     font-size: 22px;
 }
 
 .navigation__links li a:hover {
-    color: #f48c06;
+    color: var(--orange-color);
 }
 
 #navigation__link {
-    color: #f48c06;
+    color: var(--orange-color);
 }
 
 /* Hero Section */
@@ -45,7 +45,7 @@
     background-image: url(./assets/hero.jpg);
     background-size: cover;
     background-position: top;
-    background-color: #fbfafa;
+    background-color: var(--primary-background-color);
 }
 
 .hero-section__container {
@@ -53,7 +53,7 @@
 }
 
 .hero-section__container h1 {
-    color: #ffffff;
+    color: var(--white-color);
     text-align: center;
     font-size: 140px;
     line-height: 90px;
@@ -61,7 +61,7 @@
 }
 
 .hero-section__container h2 {
-    color: #ffffff;
+    color: var(--white-color);
     text-align: center;
     font-size: 40px;
     line-height: 50px;
@@ -69,7 +69,7 @@
 }
 
 .hero-section__container h3 {
-    color: #ffffff;
+    color: var(--white-color);
     text-align: center;
     font-size: 35px;
     line-height: 75px;
@@ -80,7 +80,7 @@
 /* About Us Section */
 
 #about-section {
-    background-color: #d0ccc733;
+    background-color: var(--primary-background-color);
 }
 
 .about-section__container {
@@ -91,7 +91,7 @@
     text-align: center;
     font-size: 60px;
     line-height: 72px;
-    color: #2f3e46;
+    color: var(--text-color);
     margin-bottom: 60px;
 }
 
@@ -118,19 +118,19 @@
 .about-section__left h3 {
     font-size: 40px;
     line-height: 50px;
-    color: #2f3e46;
+    color: var(--text-color);
     margin-bottom: 35px;
     font-weight: 400;
 }
 
 .about-section__left p {
-    color: #2f2f2f;
+    color: var(--text-color);
     font-size: 20px;
     margin-bottom: 45px;
 }
 
 .about-section__left a {
-    color: #f48c06;
+    color: var(--orange-color);
     font-size: 20px;
     line-height: 40px;
     margin-bottom: 30px;
@@ -154,14 +154,14 @@
     text-align: left;
     font-size: 60px;
     line-height: 72px;
-    color: #2f3e46;
+    color: var(--text-color);
     margin-bottom: 40px;
     font-weight: 600;
 }
 
 .destinations-section__left ol li,
 li a {
-    color: #2f3e46;
+    color: var(--text-color);
     font-size: 20px;
     line-height: 60px;
 }
@@ -172,11 +172,11 @@ li a {
 
 .destinations-section__left ol li:hover,
 li a:hover {
-    color: #f48c06;
+    color: var(--orange-color);
 }
 
 .explore-link {
-    color: #f48c06;
+    color: var(--orange-color);
     font-size: 20px;
     line-height: 120px;
 }
@@ -191,7 +191,7 @@ li a:hover {
 .destinations-card {
     width: 45%;
     padding: 10px;
-    background-color: #d0ccc733;
+    background-color: var(--primary-background-color);
     border-radius: 10px;
 }
 
@@ -213,7 +213,7 @@ li a:hover {
 .destinations-card__text {
     font-size: 14px;
     line-height: 28px;
-    color: #2f3e46;
+    color: var(--text-color);
     text-align: left;
     margin-bottom: 30px;
 }
@@ -221,7 +221,7 @@ li a:hover {
 /* Footer */
 
 #footer {
-    background-color: #d0ccc733;
+    background-color: var(--primary-background-color);
 }
 
 .footer__container {
@@ -234,7 +234,7 @@ li a:hover {
 }
 
 .footer__text {
-    color: #2f3e46;
+    color: var(--text-color);
     font-size: 16px;
     line-height: 50px;
     display: block;
@@ -264,7 +264,7 @@ li a:hover {
 }
 
 .footer__heading {
-    color: #2f2f2f;
+    color: var(--text-color);
     font-size: 25px;
     line-height: 50px;
     margin-bottom: 25px;
@@ -289,7 +289,7 @@ li a:hover {
     background-image: url(./assets/destinations.jpg);
     background-size: cover;
     background-position: top;
-    background-color: #fbfafa;
+    background-color: var(--primary-background-color);
 }
 
 .introduction-section__container {
@@ -297,7 +297,7 @@ li a:hover {
 }
 
 .introduction-section__container h1 {
-    color: #ffffff;
+    color: var(--white-color);
     text-align: center;
     font-size: 120px;
     line-height: 140px;
@@ -314,7 +314,7 @@ li a:hover {
     text-align: center;
     font-size: 60px;
     line-height: 72px;
-    color: #2f3e46;
+    color: var(--text-color);
     margin-bottom: 60px;
 }
 
@@ -342,14 +342,14 @@ th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: center;
-    background-color: #0077b6;
-    color: #ffffff;
+    background-color: var(--blue-color);
+    color: var(--white-color);
 }
 
 /* Sightseeings Section */
 
 #sightseeings-section {
-    background-color: d0ccc733;
+    background-color: var(--primary-background-color);
 }
 
 .sightseeings-section__container {
@@ -378,19 +378,19 @@ th {
 .sightseeings-section__right h3 {
     font-size: 40px;
     line-height: 50px;
-    color: #0077b6;
+    color: var(--blue-color);
     margin-bottom: 15px;
     font-weight: 600;
 }
 
 .sightseeings-dl dt {
-    color: #2f2f2f;
+    color: var(--text-color);
     font-size: 20px;
     font-weight: 600;
 }
 
 .sightseeings-dl dd {
-    color: #2f2f2f;
+    color: var(--text-color);
     font-size: 16px;
     font-weight: 400;
     margin-left: 30px;
@@ -404,7 +404,7 @@ th {
     background-image: url(./assets/contact.jpg);
     background-size: cover;
     background-position: top;
-    background-color: #fbfafa;
+    background-color: var(--primary-background-color);
 }
 
 .contactEnter-section__container {
@@ -429,7 +429,7 @@ th {
     text-align: center;
     font-size: 50px;
     font-weight: 400;
-    color: #2f3e46;
+    color: var(--text-color);
     margin-bottom: 30px;
 }
 
@@ -458,14 +458,14 @@ th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: center;
-    background-color: #0077b6;
-    color: #ffffff;
+    background-color: var(--blue-color);
+    color: var(--white-color);
 }
 
 /* FAQs Section */
 
 #faq-section {
-    background-color: #d0ccc733;
+    background-color: var(--primary-background-color);
 }
 
 .faq-section__container {
@@ -479,7 +479,7 @@ th {
     text-align: center;
     font-size: 40px;
     line-height: 50px;
-    color: #2f3e46;
+    color: var(--text-color);
     margin-bottom: 40px;
     font-weight: 600;
 }
@@ -500,7 +500,7 @@ th {
 }
 
 .faq-section__questions dt {
-    color: #2f3e46;
+    color: var(--text-color);
     font-size: 24px;
     line-height: 48px;
     margin-left: 36px;
@@ -508,7 +508,7 @@ th {
 }
 
 .faq-section__questions dd {
-    color: #2f3e46;
+    color: var(--text-color);
     font-size: 18px;
     line-height: 24px;
     margin-left: 36px;
@@ -527,7 +527,7 @@ th {
     text-align: center;
     font-size: 40px;
     line-height: 50px;
-    color: #2f3e46;
+    color: var(--text-color);
     margin-bottom: 65px;
     font-weight: 600;
 }
@@ -541,7 +541,7 @@ th {
 }
 
 .form-content {
-    background-color: #d0ccc733;
+    background-color: var(--primary-background-color);
     border-radius: 20px;
     padding: 20px;
 }
@@ -549,7 +549,7 @@ th {
 .form-content h4 {
     font-size: 30px;
     line-height: 35px;
-    color: #2f3e46;
+    color: var(--text-color);
     margin-top: 25px;
     margin-bottom: 10px;
     font-weight: 600;
@@ -557,7 +557,7 @@ th {
 }
 
 .form-content p {
-    color: #2f3e46;
+    color: var(--text-color);
     font-size: 18px;
     line-height: 20px;
     margin-bottom: 20px;
@@ -602,8 +602,8 @@ th {
 .submit-input {
     width: 100%;
     font-size: 18px;
-    background-color: #0077b6;
-    color: #ffffff;
+    background-color: var(--blue-color);
+    color: var(--white-color);
     padding: 10px 10px;
     margin: 8px 0;
     border: none;
@@ -651,7 +651,7 @@ th {
     width: calc((100% - 35px) / 2);
 
     padding: 8px 20px;
-    background-color: #ffffff;
+    background-color: var(--white-color);
     border-radius: 15px;
 }
 .card img {
@@ -661,7 +661,7 @@ th {
 }
 
 .card__title {
-    color: #323b4b;
+    color: var(--text-color);
     font-size: 25px;
     line-height: 50px;
     font-weight: 600;
@@ -673,7 +673,7 @@ th {
 .card__text {
     font-size: 18px;
     line-height: 30px;
-    color: #8a94a6;
+    color: var(--text-color);
     text-align: left;
     margin-bottom: 20px;
 }
